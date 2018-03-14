@@ -14,7 +14,7 @@ body {
 .nav,
 .title {
   border: 1px white solid;
-  width: 49%;
+  width: 49.5%;
   display: inline-block;
   text-align:center;
 
@@ -37,6 +37,7 @@ h1 {
   padding: 20px;
   margin: auto;
   margin-top: 100px;
+  overflow: auto;
 
 }
 
@@ -48,6 +49,7 @@ h1 {
   text-align: center;
   padding:15px;
   margin: 15px;
+  overflow: auto;
 }
 
 h2 {
@@ -64,10 +66,10 @@ footer {
 }
 
 .links {
-  font-size: 25px;
+  font-size: 30px;
   color:#e26d0e;
   border: 1px white solid;
-
+  height: 500px;
 
 }
 
@@ -88,8 +90,13 @@ footer {
 }
 
 .aboutme {
-  height:;
+  height:500px;
+  font-size: 30px;
 
+}
+
+.piclinks {
+  height: 500px;
 }
 
 footer {
