@@ -1,5 +1,103 @@
 body {
-  background-image: image(/images/mixer-1.jpg);
-  background-color: #666666;
+  background-image: url(/images/mixer-1.jpg);
+  margin: 0;
 
+}
+
+.top {
+  background-color: #e26d0e;
+  border-bottom: 5px solid #cccccc;
+  width: 100%;
+
+}
+
+.nav,
+.title {
+  border: 1px white solid;
+  width: 49%;
+  display: inline-block;
+  text-align:center;
+
+}
+
+h1 {
+  display: inline;
+  position: relative;
+  font: 75px Helvetica, Sans-Serif;
+  border: 1px solid white;
+  letter-spacing: -1.25px;
+  color: rgba(0,0,255,0.5);
+  text-shadow: 5px 3px rgba(255,0,0,0.5);
+
+}
+
+.wrapper {
+  width: 50%;
+  border: 1px white solid;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+
+}
+
+.boxes {
+  display: inline-block;
+  width: 40%;
+  border: 1px white solid;
+  object-fit: contain;
+  text-align: center;
+  padding:15px;
+  margin: 15px;
+}
+
+h2 {
+  color:#cccccc;
+  font-family: monospace;
+}
+
+p,
+a,
+footer {
+  font-family: monospace;
+  color:#cccccc;
+  text-decoration: none;
+}
+
+.links {
+  font-size: 25px;
+  color:#e26d0e;
+  border: 1px white solid;
+
+
+}
+
+.links:hover {
+  color:white;
+
+}
+
+.zoom {
+  transition: all 0.5s;
+  max-width: 90%;
+  max-height: 90%;
+  border: 3px #cccccc solid;
+}
+
+.zoom:hover {
+  transform: scale(1.02);
+}
+
+.aboutme {
+  height:;
+
+}
+
+footer {
+  width:100%;
+  bottom: 0;
+  text-align: center;
+  background-color: #e26d0e;
+  padding: 25px;
+  border-top: 5px #cccccc solid;
+  position: absolute;
 }
