@@ -17,6 +17,9 @@ body {
   width: 49.5%;
   display: inline-block;
   text-align:center;
+}
+
+.nav {
 
 }
 
@@ -38,13 +41,15 @@ h1 {
   margin: auto;
   margin-top: 100px;
   overflow: auto;
+  background-color: #e26d0e;
+
 
 }
 
 .boxes {
   display: inline-block;
   width: 40%;
-  border: 1px white solid;
+  border: px white solid;
   object-fit: contain;
   text-align: center;
   padding:15px;
@@ -67,8 +72,8 @@ footer {
 
 .links {
   font-size: 30px;
-  color:#e26d0e;
-  border: 1px white solid;
+  color:#cccccc;
+  border: px white solid;
   height: 500px;
 
 }
@@ -92,6 +97,7 @@ footer {
 .aboutme {
   height:500px;
   font-size: 30px;
+  border-left: 5px solid rgba(0,0,255,0.5);
 
 }
 
