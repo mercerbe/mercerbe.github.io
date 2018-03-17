@@ -1,6 +1,6 @@
 body {
   background-image: url(/images/mixer-1.jpg);
-  margin: 0;
+  margin: auto;
 
 }
 
@@ -8,6 +8,7 @@ body {
   background-color: #e26d0e;
   border-bottom: 5px solid #cccccc;
   width: 100%;
+  border-radius: 20px;
 
 }
 
@@ -19,8 +20,14 @@ body {
   text-align:center;
 }
 
+.nav {
+  height: 75px;
+}
+
 .nav-icon {
   height: 40px;
+  border: 0px solid white;
+  margin: 10px;
 
 }
 
@@ -41,8 +48,9 @@ h1 {
   padding: 20px;
   margin: auto;
   margin-top: 100px;
-  overflow: auto;
   background-color: #e26d0e;
+  border-radius: 20px;
+  height:auto;
 
 
 }
@@ -50,17 +58,17 @@ h1 {
 .boxes {
   display: inline-block;
   width: 40%;
-  border: px white solid;
-  object-fit: contain;
+  border: 1px white solid;
   text-align: center;
   padding:15px;
   margin: 15px;
-  overflow:auto;
+  overflow: auto;
 }
 
 h2 {
   color:#cccccc;
   font-family: monospace;
+  text-decoration: underline;
 }
 
 p,
@@ -74,13 +82,18 @@ footer {
 .links {
   font-size: 30px;
   color:#cccccc;
-  border: px white solid;
+  border: 0px white solid;
   height: 500px;
+  background-color: rgba(0,0,255,0.5);
+  padding:5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
 
 }
 
 .links:hover {
-  color:white;
+color:white;
 
 }
 
@@ -89,6 +102,7 @@ footer {
   max-width: 90%;
   max-height: 90%;
   border: 3px #cccccc solid;
+  border-radius: 10px;
 }
 
 .zoom:hover {
@@ -98,15 +112,15 @@ footer {
 .aboutme {
   height:500px;
   font-size: 30px;
-  border-left: 2px solid rgba(0,0,255,0.5);
 
 }
 
 .piclinks {
   height: 500px;
+  line-height: 50px;
 }
 
-footer {
+.footer {
   width:100%;
   bottom: 0;
   text-align: center;
@@ -114,4 +128,5 @@ footer {
   padding: 25px;
   border-top: 5px #cccccc solid;
   position: absolute;
+  border-radius: 20px;
 }
