@@ -5,10 +5,11 @@ body {
 }
 
 .top {
-  background-color: #e26d0e;
-  border-bottom: 5px solid #cccccc;
+  background-color: #a0c1b8;
+  border-bottom: 5px solid #f4e8c1;
   width: 100%;
   border-radius: 20px;
+  margin-bottom: 0px;
 
 }
 
@@ -22,33 +23,60 @@ body {
 
 .nav {
   height: 75px;
+  text-align: right;
+}
+
+.nav-anchors:hover{
+  text-decoration: none;
 }
 
 .nav-icon {
   height: 40px;
   border: 0px solid white;
-  margin: 10px;
+  margin: 5px;
+  transition-duration: 1s;
+}
 
+.nav-icon:hover {
+  transform: scale(1.5);
 }
 
 h1 {
   display: inline;
   position: relative;
-  font: 75px Helvetica, Sans-Serif;
+  font: 75px 'Nunito Sans', sans-serif;
   border: 1px solid white;
   letter-spacing: -1.25px;
-  color: rgba(0,0,255,0.5);
-  text-shadow: 5px 3px rgba(255,0,0,0.5);
+  color: #52699f;
+  text-shadow: 5px 3px #709fb0;
+
+}
+
+.navbar {
+  background-color: black;
+  border: none;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+.sidebar-link {
+
+}
+
+.sidebar-link {
+  text-decoration: none;
 
 }
 
 .wrapper {
-  width: 65%;
-  border: 1px white solid;
+  width: 75%;
+  border: 1px black solid;
   padding: 20px;
   margin: auto;
-  margin-top: 100px;
-  background-color: #e26d0e;
+  margin-top: 50px;
+  background-color: #a0c1b8;
   border-radius: 20px;
   height:auto;
 
@@ -58,35 +86,40 @@ h1 {
 .boxes {
   display: inline-block;
   width: 40%;
-  border: 1px white solid;
+  border: 0px black solid;
   text-align: center;
   padding:15px;
-  margin: 15px;
+  margin: 30px;
   overflow: auto;
 }
 
 h2 {
-  color:#cccccc;
-  font-family: monospace;
+  color:#52699f;
+  font-family: 'Nunito Sans', sans-serif;
   text-decoration: underline;
+  font-size: 50px;
+  letter-spacing: -1.25px;
+  text-shadow: 5px 3px #709fb0;
+  font-weight: 800;
+
 }
 
 p,
 a,
 footer {
-  font-family: monospace;
-  color:#cccccc;
+  font-family: 'Nunito Sans', sans-serif;
+  color:#52699f;
   text-decoration: none;
 }
 
 .links {
-  font-size: 30px;
-  color:#cccccc;
+  font-size: 40px;
+  color:#f4e8c1;
   border: 0px white solid;
   height: 500px;
-  background-color: rgba(0,0,255,0.5);
+  background-color: #52699f;
   padding:5px;
-  margin-top: 10px;
+  margin-top: 0px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px;
 
@@ -94,6 +127,7 @@ footer {
 
 .links:hover {
 color:white;
+text-decoration: none;
 
 }
 
@@ -101,7 +135,7 @@ color:white;
   transition: all 0.5s;
   max-width: 90%;
   max-height: 90%;
-  border: 3px #cccccc solid;
+  border: 3px #f4e8c1 solid;
   border-radius: 10px;
 }
 
@@ -111,7 +145,6 @@ color:white;
 
 .aboutme {
   height:500px;
-  font-size: 30px;
 
 }
 
@@ -124,9 +157,9 @@ color:white;
   width:100%;
   bottom: 0;
   text-align: center;
-  background-color: #e26d0e;
+  background-color: #a0c1b8;
   padding: 25px;
-  border-top: 5px #cccccc solid;
+  border-top: 5px #f4e8c1 solid;
   position: absolute;
   border-radius: 20px;
 }
