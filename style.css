@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-image: url(/images/mixer-1.jpg);
   margin: auto;
@@ -52,6 +56,10 @@ h1 {
 
 }
 
+.main {
+  margin-bottom: 15%;
+}
+
 .navbar {
   background-color: black;
   border: none;
@@ -62,36 +70,25 @@ h1 {
 }
 
 .sidebar-link {
-
-}
-
-.sidebar-link {
   text-decoration: none;
 
 }
 
 .wrapper {
-  width: 75%;
+  width: 80%;
+  max-width: 700px;
   border: 1px black solid;
   padding: 20px;
-  margin: auto;
+  margin-left:auto;
+  margin-right:auto;
   margin-top: 50px;
   background-color: #a0c1b8;
   border-radius: 20px;
   height:auto;
-
-
-}
-
-.boxes {
-  display: inline-block;
-  width: 40%;
-  border: 0px black solid;
   text-align: center;
-  padding:15px;
-  margin: 30px;
-  overflow: auto;
+
 }
+
 
 h2 {
   color:#52699f;
@@ -112,11 +109,11 @@ footer {
   text-decoration: none;
 }
 
+
 .links {
   font-size: 40px;
   color:#f4e8c1;
   border: 0px white solid;
-  height: 500px;
   background-color: #52699f;
   padding:5px;
   margin-top: 0px;
@@ -144,14 +141,23 @@ text-decoration: none;
 }
 
 .aboutme {
-  height:500px;
+  height:auto;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
 .piclinks {
-  height: 500px;
+  height: auto;
   line-height: 50px;
 }
+
+#image {
+  max-height: 600px;;
+  width: auto;
+}
+
 
 .footer {
   width:100%;
@@ -160,6 +166,6 @@ text-decoration: none;
   background-color: #a0c1b8;
   padding: 25px;
   border-top: 5px #f4e8c1 solid;
-  position: absolute;
+  position: fixed;
   border-radius: 20px;
 }
