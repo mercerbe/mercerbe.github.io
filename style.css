@@ -74,6 +74,11 @@ h1 {
 
 }
 
+.sidebar-link:hover {
+  color:white;
+  text-decoration: none;
+}
+
 .wrapper {
   width: 80%;
   max-width: 700px;
