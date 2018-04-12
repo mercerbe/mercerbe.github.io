@@ -1,8 +1,10 @@
 body {
+  margin-bottom: 180px;
 
 }
 
 .jumbotron {
+  background-color: rgb(244,243,243);
  -moz-box-shadow: inset 0 0 30px #343a40;
  -webkit-box-shadow: inset 0 0 30px #343a40;
  box-shadow: inset 0 0 30px #343a40;
@@ -12,23 +14,47 @@ h1 {
    font-family: 'Permanent Marker', cursive;
 }
 
+.lead {
+  color: rgb(164,55,70);
+  font-weight: 800;
+}
+
 a,
 a:link,
 a:visited,
 a:hover,
 a:active {
   text-decoration: none;
-  color: rgb(233,236,239);
+  color: rgb(244,243,243);
 }
 
-footer {
+li .links {
+  color: rgb(164,55,70);
+}
+
+
+#footer {
+  bottom: -180px;
+  color: rgb(244,243,243);
   width:100%;
   position: absolute;
-  bottom: 0;
   text-align: center;
-  background-color: rgb(233,236,239);
-  padding: 2% 0% 2% 0%;
- -moz-box-shadow: inset 0 0 30px #343a40;
- -webkit-box-shadow: inset 0 0 30px #343a40;
- box-shadow: inset 0 0 30px #343a40;
+  background-color: rgb(52,58,64);
+  padding: 3% 0% 3% 0%;
+  background-color: black;
+}
+
+@media (max-width: 480px) {
+  #footer {
+    bottom: -550px;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  #footer {
+    bottom: -440px;
+  }
+
 }
