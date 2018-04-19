@@ -35,7 +35,7 @@ li .links {
 
 
 #footer {
-  bottom: -200px;
+  bottom: -180px;
   color: rgb(244,243,243);
   width:100%;
   position: absolute;
@@ -55,7 +55,7 @@ li .links {
 
 @media (min-width: 768px) {
   #footer {
-    bottom: -300px;
+    bottom: -200px;
   }
 
 }
