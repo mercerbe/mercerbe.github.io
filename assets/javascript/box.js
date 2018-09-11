@@ -1,10 +1,6 @@
-//
 // Inspired by JTK-Developments
 // ----
 // https://codepen.io/jtkDvlp/pen/lswmu
-//
-
-
 
 $(".side").on("click", "li", function(){
   $("#cube").removeClass().addClass($(this).attr("class"));

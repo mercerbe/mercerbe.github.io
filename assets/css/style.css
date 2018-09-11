@@ -58,14 +58,16 @@ li .links {
 
 
 #footer {
+  -moz-box-shadow: inset 0 0 30px #343a40;
+  -webkit-box-shadow: inset 0 0 30px #343a40;
+  box-shadow: inset 0 0 30px #343a40;
   bottom: 0px;
-  color: rgb(244,243,243);
   width:100%;
   position: absolute;
   text-align: center;
   background-color: rgb(52,58,64);
   padding: 1% 0% 1% 0%;
-  background-color: black;
+  background-color: rgb(244,243,243);
 }
 
 /* @media (max-width: 480px) {
