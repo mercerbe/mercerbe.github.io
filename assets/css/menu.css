@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
-body,
-html {
+body, html {
   height: 100%;
   padding: 0;
   margin: 0;
@@ -8,13 +7,16 @@ html {
 }
 
 main {
+  background-color: #4ea7d3;
   z-index: 2;
+  margin: 0;
   position: relative;
-  height: 100%;
-  background-image: url(../images/computer.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 89%;
+  min-height: 100vh;
+  /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 225px;
   -moz-box-shadow: inset 0 0 30px #343a40;
   -webkit-box-shadow: inset 0 0 30px #343a40;
   box-shadow: inset 0 0 30px #343a40;
@@ -23,7 +25,6 @@ main {
   -ms-transition: transform .7s ease-in-out;
   -o-transition: transform .7s ease-in-out;
   transition: transform .7s ease-in-out;
-  margin-bottom: 180px;
 }
 
 .sidebar {
@@ -33,14 +34,15 @@ main {
   top: 0;
   z-index: 1;
   right: 0;
-  background-color: rgb(70,118,134);
+  bottom: 0;
+  background-color: rgb(70, 118, 134);
 }
 
 .bar {
   display: block;
   height: 5px;
   width: 50px;
-  background-color: rgb(70,118,134);
+  background-color: rgb(70, 118, 134);
   margin: 10px auto;
 }
 
