@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: `/mercerbe.github.io`,
   siteMetadata: {
     title: "GatsbyJS Ben Mercer",
     author: "Ben Mercer with template help from Hunter Chang",
