@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "Mercerbe.github.io",
+  "description": "Ben Mercer Landing Page",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Ben Mercer w/ Hunter Chaung",
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
@@ -31,6 +31,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/mercerbe/mercerbe.github.io"
   }
 }
