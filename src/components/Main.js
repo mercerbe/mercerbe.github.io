@@ -16,23 +16,22 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <p>Thanks for taking a few minutes to learn a little bit about me. I’ve been working in digital and analog audio engineering for 6 years, but in the last year have developed a passion for web development. I found I had an interest in the web-based tools that are changing the music industry, but also found web development itself to be a creative outlet that is surprisingly similar to recording or mixing audio. I find myself every day wanting to learn, develop, and improve web and mobile applications.<a href="#work">awesome work</a>.</p>
+          <p>When I realized how passionate I was about improving my development skills, I decided to go back to school at UNC Charlotte to improve my skills by participating in Full Stack Web Development continuing education program. What that program did for me was teach me how to dive into new technologies, languages, tools, and documentation; learning how to apply those to applications I’m working on. I’ve continued to build projects that push myself to learn new technologies, improve code maintainability, and create better user experiences. I’ve also taken on freelance work with remote clients, allowing me to use my skills as an audio engineer in the client-centric music industry and apply those skills to the web development community and marketplace. I really enjoy client-facing roles, working with a team to meet deadlines with high quality deliverables that bring a vision to life. </p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <p>Display Projects here...</p>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <p>My passion and continuing pursuit to improve my skills allows me to deliver high quality tested custom applications. I have the attention to detail, drive and knowledge to be able to solve complex problems, learn new technologies and tools, and offer improvements and ideas for modern applications. I feel my expertise lies in Node.js, Express, MongoDB, and React. I also enjoy working in vanilla Javascript, jQuery, HTML5, CSS3 and other front-end technologies and frameworks including Bootstrap, Material-UI, Semantic-UI and Bulma.</p>
           {close}
         </article>
 
