@@ -66,7 +66,18 @@ class Main extends React.Component {
           <span className="image main">
             <img src={projectPic} alt="" />
           </span>
-          <p>Display Projects here...</p>
+          <p>
+            <a href="https://social-rent-web.herokuapp.com/">Social Rent</a>
+          </p>
+          <p>
+            <a href="https://bainc.herokuapp.com/">Bainc</a>
+          </p>
+          <p>
+            <a href="https://taulkback.herokuapp.com/">Taulkback</a>
+          </p>
+          <p>
+            <a href="https://mercerbe.github.io/benmercer/">Bootstrap Page</a>
+          </p>
           {close}
         </article>
 
