@@ -1,15 +1,17 @@
-// VUE CLI STANDARD IMPORTS
+// Vue
 import Vue from "vue";
 import App from "./App.vue";
-// VUESAX DEPENDENCIES
+// Vuesax
 import Vuesax from "vuesax";
-import "material-icons/iconfont/material-icons.css";
+import "vuesax/dist/vuesax.css";
 
-// WATCH FOR PRODUCTION
+// use libs
+Vue.use(Vuesax);
+
+// set production
 Vue.config.productionTip = false;
 
-// VUE INSTANCE
+// vue instance
 new Vue({
-  Vuesax,
   render: h => h(App)
 }).$mount("#app");
