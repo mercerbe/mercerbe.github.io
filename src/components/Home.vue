@@ -7,19 +7,32 @@ export default {
 <template>
   <div>
     <vs-row vs-justify="center">
+      <vs-images>
+        <vs-image :src="`../assets/Ben_Image_1.jpeg`" />
+      </vs-images>
       <vs-col type="flex" vs-justify="center" vs-align="center" vs-w="6">
         <vs-card>
           <div slot="header">
             <h3>
-              Hello world !
+              Hey! I'm Ben.
             </h3>
           </div>
           <div>
-            <span
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.</span
+            <span>
+              I'm a web developer with over seven years of digital and analog
+              audio engineering experience that is very passionate about my
+              work. I love to develop new projects and continue to learn,
+              applying my knowledge as a business owner and audio engineer to
+              the development of web and mobile applications. My passion and
+              continuing quest for knowledge allows me to deliver high quality,
+              highly tested custom applications. I have the attention to detail,
+              drive and knowledge to be able to solve complex problems and offer
+              improvements and ideas for modern applications. My expertise lies
+              in full stack development with backend proficiency in Node.js,
+              Express, MongoDB, Firebase/Firestore and AWS. On the frontend I
+              enjoy working with Vue or React but am proficient in vanilla js,
+              jQuery, HTML, CSS and other styling frameworks including
+              Bootstrap, Material, Bulma and Tailwind.</span
             >
           </div>
           <div slot="footer">

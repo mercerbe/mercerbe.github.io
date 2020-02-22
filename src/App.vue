@@ -11,7 +11,8 @@ export default {
 
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/Ben_Image_1.jpeg" />
+    <img alt="Ben" src="./assets/Ben_Image_1.jpeg" />
+
     <Home msg="Welcome to Your Vue.js App" />
   </div>
 </template>
