@@ -16,7 +16,7 @@ export default {
   </h1>
 </template>
 
-<style lang="scss" module>
+<style module>
 .title {
   text-align: center;
 }

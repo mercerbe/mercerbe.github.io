@@ -4,21 +4,27 @@ export default {
 };
 </script>
 
-<template>
-  <div>
+<template lang="html">
+  <div :class="$style.background">
+    <img
+      alt="Ben"
+      src="../../../assets/Ben_Image_1.jpeg"
+      :class="$style.image"
+    />
+
     <vs-row vs-justify="center">
       <vs-col type="flex" vs-justify="center" vs-align="center" vs-w="6">
         <vs-card>
           <div slot="header">
             <h3>
-              Hey!
+              Hey! I'm Ben.
             </h3>
           </div>
           <div>
             <span>
-              Hello! I'm a web developer with over seven years of digital and
-              analog audio engineering experience that is very passionate about
-              my work. I love to develop new projects and continue to learn,
+              I'm a web developer with over seven years of digital and analog
+              audio engineering experience that is very passionate about my
+              work. I love to develop new projects and continue to learn,
               applying my knowledge as a business owner and audio engineer to
               the development of web and mobile applications. My passion and
               continuing quest for knowledge allows me to deliver high quality,
@@ -34,17 +40,15 @@ export default {
           </div>
           <div slot="footer">
             <vs-row vs-justify="flex-end">
-              <vs-button
-                type="gradient"
-                color="danger"
-                icon="favorite"
-              ></vs-button>
-              <vs-button color="primary" icon="turned_in_not"></vs-button>
-              <vs-button
-                color="rgb(230,230,230)"
-                color-text="rgb(50,50,50)"
-                icon="settings"
-              ></vs-button>
+              <vs-button type="gradient" color="success" icon="list"
+                >Skills</vs-button
+              >
+              <vs-button type="gradient" color="danger" icon="work"
+                >Projects</vs-button
+              >
+              <vs-button type="gradient" color="primary" icon="contact_phone"
+                >Contact</vs-button
+              >
             </vs-row>
           </div>
         </vs-card>
@@ -53,20 +57,22 @@ export default {
   </div>
 </template>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
+<style module>
+.background {
+  height: 100vh;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.image {
+  border-radius: 10px;
 }
 </style>

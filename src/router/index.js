@@ -4,7 +4,7 @@ import VueRouter from "vue-router";
 import VueMeta from "vue-meta";
 // Adds a loading bar at the top during page loads.
 import NProgress from "nprogress/nprogress";
-import store from "@state/store";
+// import store from "@state/store";
 import routes from "./routes";
 
 Vue.use(VueRouter);
@@ -52,40 +52,40 @@ router.beforeEach((routeTo, routeFrom, next) => {
   // If auth is required and the user is logged in...
   // if (store.getters['auth/loggedIn']) {
   // Validate the local user token...
-  return store.dispatch("auth/validate").then(validUser => {
-    // Then continue if the token still represents a valid user,
-    // otherwise redirect to login.
-    if (validUser) {
-      if (!store.state.common.loaded) {
-        store
-          .dispatch("common/init")
-          .then(() => {})
-          .catch(() => {})
-          .finally(() => {
-            next();
-          });
-      } else {
-        next();
-      }
-    } else {
-      redirectToLogin();
-    }
-  });
+  // return store.dispatch("auth/validate").then(validUser => {
+  //   // Then continue if the token still represents a valid user,
+  //   // otherwise redirect to login.
+  //   if (validUser) {
+  //     if (!store.state.common.loaded) {
+  //       store
+  //         .dispatch("common/init")
+  //         .then(() => {})
+  //         .catch(() => {})
+  //         .finally(() => {
+  //           next();
+  //         });
+  //     } else {
+  //       next();
+  //     }
+  //   } else {
+  //     redirectToLogin();
+  //   }
+  // });
   // }
 
   // If auth is required and the user is NOT currently logged in,
   // redirect to login.
   // redirectToLogin()
 
-  function redirectToLogin() {
-    // Pass the original route to the login component
-    next({
-      name: "login",
-      query: {
-        redirectFrom: routeTo.fullPath
-      }
-    });
-  }
+  // function redirectToLogin() {
+  //   // Pass the original route to the login component
+  //   next({
+  //     name: "login",
+  //     query: {
+  //       redirectFrom: routeTo.fullPath
+  //     }
+  //   });
+  // }
 });
 
 router.beforeResolve(async (routeTo, routeFrom, next) => {
