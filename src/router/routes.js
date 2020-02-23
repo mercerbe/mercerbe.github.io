@@ -5,6 +5,18 @@ export default [
     name: "home",
     component: () => lazyLoadView(import("./views/home")),
     props: route => ({})
+  },
+  {
+    path: "/projects",
+    name: "projects",
+    component: () => lazyLoadView(import("./views/projects")),
+    props: route => ({})
+  },
+  {
+    path: "/skills",
+    name: "skills",
+    component: () => lazyLoadView(import("./views/skills")),
+    props: route => ({})
   }
 ];
 
