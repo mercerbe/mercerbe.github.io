@@ -1,7 +1,13 @@
 <script>
-export default {};
+import Layout from "../../layouts/main";
+export default {
+  components: { Layout },
+  data() {
+    return {};
+  }
+};
 </script>
 
 <template>
-  <div>Projects list...</div>
+  <Layout></Layout>
 </template>
