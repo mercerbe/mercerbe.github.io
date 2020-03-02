@@ -1,54 +1,26 @@
 {
-  "name": "src",
-  "version": "0.1.0",
+  "name": "mercerbe",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "capacitor-copy": "vue-cli-service capacitor-copy",
-    "capacitor-init": "vue-cli-service capacitor-init",
-    "capacitor-open": "vue-cli-service capacitor-open",
-    "capacitor-update": "vue-cli-service capacitor-update"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
   },
   "dependencies": {
-    "@capacitor/cli": "^1.0.0-alpha.38",
-    "@capacitor/core": "^1.0.0-alpha.38",
-    "core-js": "^3.6.4",
-    "material-icons": "^0.3.1",
-    "nprogress": "^0.2.0",
-    "vue": "^2.6.11",
-    "vue-meta": "^2.3.2",
-    "vue-router": "^3.1.5",
-    "vue-scrollto": "^2.17.1",
-    "vuesax": "^3.11.13"
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "@gridsome/plugin-sitemap": "^0.2.3",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.4.0",
+    "@gridsome/vue-remark": "^0.1.9",
+    "axios": "^0.19.2",
+    "gridsome": "^0.7.12",
+    "gridsome-plugin-remark-shiki": "^0.3.1",
+    "gridsome-plugin-rss": "^1.2.0",
+    "lodash.pick": "^4.4.0",
+    "vue-fuse": "^2.2.0",
+    "vue-scrollto": "^2.17.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.2.0",
-    "@vue/cli-plugin-eslint": "^4.2.0",
-    "@vue/cli-service": "^4.2.0",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.1.2",
-    "vue-cli-plugin-pwa": "^1.0.0-alpha.1",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+    "tailwindcss": "^1.2.0"
+  }
 }
