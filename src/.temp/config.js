@@ -1,7 +1,7 @@
 export default {
   "trailingSlash": true,
   "pathPrefix": "",
-  "titleTemplate": "%s - Gridsome Portfolio Starter",
-  "siteUrl": "https://gridsome-portfolio-starter.netlify.com",
+  "titleTemplate": "%s - Ben Mercer",
+  "siteUrl": "https://mercerbe.github.io",
   "version": "0.7.12"
 }

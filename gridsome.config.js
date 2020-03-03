@@ -12,10 +12,9 @@ const postcssPlugins = [tailwind()];
 if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss());
 
 module.exports = {
-  siteName: "Gridsome Portfolio Starter",
-  siteDescription:
-    "A simple portfolio theme for Gridsome powered by Tailwind CSS v1",
-  siteUrl: "https://gridsome-portfolio-starter.netlify.com",
+  siteName: "Ben Mercer",
+  siteDescription: "Ben Mercer's gridsome-powered portfolio",
+  siteUrl: "https://mercerbe.github.io",
   plugins: [
     {
       use: "@gridsome/vue-remark",
@@ -51,13 +50,13 @@ module.exports = {
         contentTypeName: "Post",
         feedOptions: {
           title: "Gridsome Portfolio Starter Blog",
-          feed_url: "https://gridsome-portfolio-starter.netlify.com/rss.xml",
-          site_url: "https://gridsome-portfolio-starter.netlify.com/"
+          feed_url: "https://mercerbe.github.io/rss.xml",
+          site_url: "https://mercerbe.github.io"
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: "https://gridsome-portfolio-starter.netlify.com" + node.path,
+          url: "https://mercerbe.github.io" + node.path,
           author: "Ben Mercer",
           date: node.date
         }),

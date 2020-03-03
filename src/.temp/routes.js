@@ -15,35 +15,7 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/Users/admin/Desktop/GitHub-Repositories/mercerbe.github.io/src/pages/Blog.vue")
   },
   {
-    path: "/what-i-ate-for-breakfast/",
-    component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/admin/Desktop/GitHub-Repositories/mercerbe.github.io/src/templates/Post.vue")
-  },
-  {
-    path: "/top-5-static-site-generators-in-vue/",
-    component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/admin/Desktop/GitHub-Repositories/mercerbe.github.io/src/templates/Post.vue")
-  },
-  {
-    path: "/vue-vs-react-comparison/",
-    component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/admin/Desktop/GitHub-Repositories/mercerbe.github.io/src/templates/Post.vue")
-  },
-  {
-    path: "/mac-pro-2019-review/",
-    component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/admin/Desktop/GitHub-Repositories/mercerbe.github.io/src/templates/Post.vue")
-  },
-  {
-    path: "/how-to-get-better-at-coding/",
-    component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/admin/Desktop/GitHub-Repositories/mercerbe.github.io/src/templates/Post.vue")
-  },
-  {
     path: "/introduction-to-gridsome/",
-    component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/admin/Desktop/GitHub-Repositories/mercerbe.github.io/src/templates/Post.vue")
-  },
-  {
-    path: "/freelance-vs-full-time-work/",
-    component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/admin/Desktop/GitHub-Repositories/mercerbe.github.io/src/templates/Post.vue")
-  },
-  {
-    path: "/design-for-developers/",
     component: () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/Users/admin/Desktop/GitHub-Repositories/mercerbe.github.io/src/templates/Post.vue")
   },
   {
