@@ -1,17 +1,19 @@
+<script>
+export default {
+  metaInfo: {
+    title: "Home"
+  }
+};
+</script>
+
 <template>
   <Layout>
-    <div
-      class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
-    >
+    <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Hey, I'm Ben!</div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <g-image
-          src="../../static/developer.svg"
-          alt="hero"
-          class="mx-auto sm:mx-0"
-        />
+        <g-image src="../../static/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
       </div>
     </div>
     <!-- end hero -->
@@ -40,14 +42,9 @@
       <div
         class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative"
       >
-        <h2 class="font-bold mb-6" id="projects">
-          Here are some projects I've worked on:
-        </h2>
+        <h2 class="font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
 
-        <div
-          class="absolute right-0"
-          style="top: 50px; transform: translate(100%) rotate(180deg)"
-        >
+        <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px">
             <use xlink:href="#dots-triangle" />
           </svg>
@@ -65,7 +62,7 @@
           <li class="checkmark mb-6">
             <div>Bainc</div>
             <div class="text-lg text-gray-600">
-              MERN stack social project that helps connect Bands/Musicians to
+              Bainc is a MERN stack social project intended to connect musicians to
               Audio Engineers and producers.
             </div>
           </li>
@@ -79,34 +76,26 @@
           <li class="checkmark mb-6">
             <div>Contractor Timetracker</div>
             <div class="text-lg text-gray-600">
-              A time tracking/reporting/todo app built with Vue and Firebase
-              using Auth0 that helps contract works keep their timecard up to
-              date for easy reporting to their employers.
+              CTT is a time tracking/reporting/todo app built with Vue and Firebase
+              using Auth0 that helps contract employees keep their timecards.
             </div>
           </li>
         </ul>
       </div>
       <!-- end projects -->
     </div>
-
+    <!-- start about me -->
     <div class="overflow-x-hidden border-gray-200 border-b">
-      <div
-        class="get-to-know-me container-inner mx-auto text-xl pb-16 relative"
-      >
+      <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
         <h2 class="font-bold mb-6" id="about">Get to know me:</h2>
 
-        <div
-          class="absolute left-0"
-          style="top: 50px; transform: translateX(-100%)"
-        >
+        <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px">
             <use xlink:href="#dots-triangle" />
           </svg>
         </div>
 
-        <div
-          class="flex flex-col sm:flex-row justify-between items-center mb-16"
-        >
+        <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
           <div>
             <g-image
               src="https://avatars3.githubusercontent.com/u/35779366?s=460&v=4"
@@ -120,17 +109,50 @@
             work with any client or team member to be productive and deliver
             with tight deadlines.
           </div>
+          <!-- end about me -->
         </div>
-
-        <!-- <div class="responsive-container">
-          <iframe
-            class="responsive-iframe w-full h-full top-0 left-0 border-0"
-            src="https://drive.google.com/file/d/1k0OZO5MeRi-qQeV7OnP08sZopRaT7H31/view"
-            style="border:0;"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div> -->
+        <!-- start skills -->
+        <h2 class="font-bold mb-6">My Skills:</h2>
+        <div class="flex flex-col sm:flex-row justify-between items-start mb-16">
+          <div class="mx-6">
+            <div>
+              <g-image
+                src="../../static/coding.gif"
+                alt="avatar"
+                class="w-32 h-32 rounded-full mb-8 lg:mb-0"
+              />
+            </div>
+            <p>
+              Front End Implementation:
+              <br />Adding javascript frameworks with exendable components using Vue or React
+            </p>
+          </div>
+          <div class="mx-6">
+            <div>
+              <g-image
+                src="../../static/design.gif"
+                alt="avatar"
+                class="w-32 h-32 rounded-full mb-8 lg:mb-0"
+              />
+              <p>
+                Adding Features:
+                <br />Developing features under strict deadlines when working with a team of developers
+              </p>
+            </div>
+          </div>
+          <div class="mx-6">
+            <g-image
+              src="../../static/responsive.gif"
+              alt="avatar"
+              class="w-32 h-32 rounded-full mb-8 lg:mb-0"
+            />
+            <p>
+              Responsive Design:
+              <br />Working with designers to implement seamless mobile-responsive designs
+            </p>
+          </div>
+          <!-- end skills -->
+        </div>
       </div>
       <!-- end get-to-know me -->
     </div>
@@ -140,10 +162,7 @@
         <div class="container-inner mx-auto text-xl pb-4 relative">
           <h2 class="font-bold mb-6" id="contact">Contact me:</h2>
 
-          <div
-            class="absolute right-0 top-0"
-            style="transform: translate(100%) rotate(180deg)"
-          >
+          <div class="absolute right-0 top-0" style="transform: translate(100%) rotate(180deg)">
             <svg width="170px" height="170px">
               <use xlink:href="#dots-triangle" />
             </svg>
@@ -152,16 +171,10 @@
           <p class="mb-12"></p>
 
           <div class="text-lg sm:text-lg mb-16">
-            <form
-              class="mb-12"
-              action="https://formspree.io/xlenodnq"
-              method="POST"
-            >
+            <form class="mb-12" action="https://formspree.io/xlenodnq" method="POST">
               <div class="flex flex-wrap mb-6 -mx-4">
                 <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
-                  <label class="block mb-2 text-copy-primary" for="name"
-                    >Name</label
-                  >
+                  <label class="block mb-2 text-copy-primary" for="name">Name</label>
 
                   <input
                     type="text"
@@ -174,9 +187,7 @@
                 </div>
 
                 <div class="w-full px-4 md:w-1/2">
-                  <label class="block text-copy-primary mb-2" for="email"
-                    >Email Address</label
-                  >
+                  <label class="block text-copy-primary mb-2" for="email">Email Address</label>
 
                   <input
                     type="email"
@@ -190,9 +201,7 @@
               </div>
 
               <div class="w-full mb-12">
-                <label class="block text-copy-primary mb-2" for="message"
-                  >Message</label
-                >
+                <label class="block text-copy-primary mb-2" for="message">Message</label>
 
                 <textarea
                   id="message"
@@ -223,11 +232,6 @@
         <h2 class="text-2xl font-bold mb-8">Join my Newsletter</h2>
 
         <div class="w-4/5 mx-auto mb-8">
-          <p class="mb-8 text-lg sm:text-xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis,
-            voluptatum. Quam, deleniti nulla.
-          </p>
-
           <form action="#">
             <div class="flex flex-col sm:flex-row">
               <input
@@ -336,11 +340,3 @@
     </div>
   </Layout>
 </template>
-
-<script>
-export default {
-  metaInfo: {
-    title: "Home"
-  }
-};
-</script>
